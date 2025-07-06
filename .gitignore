@@ -1,4 +1,6 @@
-/target/
-midas.db
+/target
+**/*.db
 .env
-*.log
+.DS_Store
+.idea
+.vscode

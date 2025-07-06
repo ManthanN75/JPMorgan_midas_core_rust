@@ -11,6 +11,14 @@ env_logger = "0.10"
 log = "0.4"
 sqlx = { version = "0.7", features = ["sqlite", "runtime-tokio-rustls"] }
 rdkafka = { version = "0.34", features = ["tokio", "cmake-build"] }
-tokio-stream = "0.1.15"  # ✅ Add this line
+tokio-stream = "0.1.15"
 serde = { version = "1", features = ["derive"] }
 serde_json = "1"
+reqwest = { version = "0.11", features = ["json", "rustls-tls"] }
+
+
+
+
+[[bin]]
+name = "mock_incentive_api"
+path = "src/mock_incentive_api.rs"
