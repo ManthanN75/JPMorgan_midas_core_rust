@@ -1,4 +1,4 @@
-# 🦀 JPMorgan Midas Core Backend (Rust Reimplementation)
+ 🦀 JPMorgan Midas Core Backend (Rust Reimplementation)
 
 This project is a complete rewrite of the JPMorgan Chase **Forage Virtual Experience Program's backend system**, originally designed in Java/Spring. Instead, it is built entirely in **Rust** to explore safe, performant, and async-first backend architecture with real-world components like **Kafka**, **SQLite**, and **REST APIs**.
 
@@ -6,7 +6,7 @@ This project is a complete rewrite of the JPMorgan Chase **Forage Virtual Experi
 
 ---
 
-## 🔥 Why Rust?
+ 🔥 Why Rust?
 
 - 🛡️ Memory safety without garbage collection
 - ⚡ High performance and async concurrency  
@@ -14,7 +14,7 @@ This project is a complete rewrite of the JPMorgan Chase **Forage Virtual Experi
 
 ---
 
-## 📦 Tech Stack
+ 📦 Tech Stack
 
 | Tech           | Purpose                              |
 |----------------|--------------------------------------|
@@ -29,8 +29,7 @@ This project is a complete rewrite of the JPMorgan Chase **Forage Virtual Experi
 | **sqlite3**     | Local database for transaction records |
 
 ---
-
-## 🧱 Architecture Overview
+ 🧱 Architecture Overview
 
 ```
 Kafka Topic ("transactions")
@@ -52,14 +51,14 @@ Query balances via CLI or REST (Phase 5)
 
 ---
 
-## 🧩 Features by Phase
+ 🧩 Features by Phase
 
-### ✅ Phase 1: Setup & DB
+ ✅ Phase 1: Setup & DB
 - `.env` support for config
 - SQLite schema creation (`users`, `transactions`)
 - Rust modules initialized
 
-### ✅ Phase 2: Kafka Integration
+ ✅ Phase 2: Kafka Integration
 - Async Kafka consumer with `rdkafka`
 - Parses incoming JSON transactions
 - Inserts raw data into SQLite
