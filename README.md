@@ -2,7 +2,7 @@
 
 This project is a complete rewrite of the JPMorgan Chase **Forage Virtual Experience Program's backend system**, originally designed in Java/Spring. Instead, it is built entirely in **Rust** to explore safe, performant, and async-first backend architecture with real-world components like **Kafka**, **SQLite**, and **REST APIs**.
 
-> ✅ All 5 Phases Completed — Kafka → SQLite → Incentive API → Actix REST integration
+> ✅ All 5 phases Completed — Kafka → SQLite → Incentive API → Actix REST integration
 
 ---
 
